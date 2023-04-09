@@ -1,0 +1,25 @@
+{
+  "name": "ttodo",
+  "version": "1.0.0",
+  "description": "A basic todo list in your command line.",
+  "main": "./commands.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ttodo",
+    "todo"
+  ],
+  "author": "Daniel Gellert",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjahorn/ttodo"
+  },
+  "homepage": "https://github.com/ninjahorn"
+}
